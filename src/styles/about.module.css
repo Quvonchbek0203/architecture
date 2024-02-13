@@ -1,0 +1,51 @@
+#about{
+    width: 100%;
+    height: 100vh;
+    position: relative;
+}
+.aboutheader{
+    padding-top: 50px;
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column; 
+}
+.abouth2 h2{
+    color: orange;
+    border-bottom: 2px solid orange;
+}
+.abouth1 h1{
+    font-size: 60px;
+}
+.aboutimage{
+    padding: 30px;
+    width: 100%;
+    display: flex;
+    gap: 40px;
+    justify-content: center;
+    align-items: center ;
+}
+.alisa{
+    width: 550px;
+    max-width: 50%;
+    height: 480px;
+    background-image: url(../assets/alisa.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+.abouttext{
+    max-width: 50%;
+    width: 575px;
+}
+.aboutimg{
+    max-width: 100%;
+    width: 300px;
+    height: 40px;
+    background-image: url(../assets/imzo.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
