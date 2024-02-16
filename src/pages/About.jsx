@@ -1,9 +1,31 @@
 import React from 'react'
-import styles from '../styles/about.module.css' 
+import styles from '../styles/about.module.css'
+import { HiChevronDown } from "react-icons/hi";
 
 const About = () => {
   return (
     <div id="about">
+
+        <div className={styles.header}>
+            <h2>We Are Know For Our</h2>
+            <h1 className='cd-headline rotate-1'>
+            <span class="cd-words-wrapper">
+                <b className='is-visible'>POTENTIAL</b>
+            {/* <b>GREATNESS</b>
+                <b>VERSATILITY</b>
+                <b>EXPERTISE</b>
+                <b>INSPIRATION</b>
+                <b>CAPABILITY</b> */}
+            </span>
+            </h1>
+        <div className={styles.btn}>
+            <button className={styles.btn1}><p>LATEST WORK</p></button>
+            <button className={styles.btn2}><p>GET IN TOUCH</p></button>
+        </div>
+            <div className={styles.down}><a href=" "><HiChevronDown /></a></div>
+        </div>
+
+
         <div className={styles.aboutheader}>
             <div className={styles.abouth2}>
                 <h2>Our Project & Vision</h2>
@@ -26,34 +48,6 @@ const About = () => {
                 <p className={styles.aboutimg}></p>
             </div>
         </div><br /><br />
-        <div className={styles.gif}>
-            <b>WE ARE MULTIFACETED AND GIFTED</b>
-            <br /><hr /><br />
-            <p>At the base of the mainmast, full beneath the doubloon and the flame, the Parsee was kneeling in Ahab’s front, but with his head bowed away from him while near by but not yet have we solved the incantation of this whiteness, and learned why it appeals with such power.</p><br />
-            <p>From the arched and overhanging rigging, where they had just been engaged securing a spar, a number of the seamen, arrested by the glare, now cohered together, and hung pendulous, like a knot of numbed wasps from a drooping big and swirly thing.</p>
-        </div>
-        <div className={styles.percent}>
-            <div className={styles.brading}>
-                <b>BRANDING</b>
-                <b>80%</b>
-            </div>
-            <div className={styles.brand}></div>
-            <div className={styles.edition}>
-                <b>VIDEO EDITION</b>
-                <b>90%</b>
-            </div>
-            <div className={styles.edit}></div>
-            <div className={styles.commerce}>
-                <b>E-COMMERCE</b>
-                <b>95%</b>
-            </div>
-            <div className={styles.commer}></div>
-            <div className={styles.photography}>
-                <b>PHOTOGRAPHY</b>
-                <b>75%</b>
-            </div>
-            <div className={styles.photo}></div>
-        </div>     
     </div>
   )
 }

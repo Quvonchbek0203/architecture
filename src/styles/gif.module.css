@@ -1,0 +1,111 @@
+.gifes{
+    width: 100%;
+    padding-top: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px; 
+}
+.gif{
+    width: 60%;
+    max-width: 650px;
+}
+.gif b{
+    font-size: 20px;
+}
+.gif p{
+    font-size: 18px;
+}
+
+
+.percent{
+    width: 40%;
+    height: 350px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+}
+.brading{
+    width: 80%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.brand{
+    width: 100%;
+    max-width: 80%;
+    border: 1px solid black;
+    height: 10px;
+    border-radius: 50px;
+    background-color: black;
+}
+.brands{
+    position: absolute;
+    right: 150px;
+    z-index: -1;
+}
+.edition{
+    width: 80%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.edit{
+    width: 100%;
+    max-width: 90%;
+    border: 1px solid black;
+    height: 10px;
+    border-radius: 50px;
+    background-color: black;
+}
+.edits{
+    position: absolute;
+    right: 110px;
+    z-index: -1;
+}
+.commerce{
+    width: 80%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.commer{
+    width: 100%;
+    max-width: 95%;
+    border: 1px solid black;
+    height: 10px;
+    border-radius: 50px;
+    background-color: black;
+}
+.commers{
+    position: absolute;
+    right: 90px;
+    z-index: -1;
+}
+.photography{
+    width: 80%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.photo{
+    width: 100%;
+    max-width: 75%;
+    border: 1px solid black;
+    height: 10px;
+    border-radius: 50px;
+    background-color: black;
+}
+.photos{
+    position: absolute;
+    right: 170px;
+    z-index: -1;
+}
+.foiz{
+    width: 400px;
+    border: 1px solid black;
+    height: 10px;
+    border-radius: 50px;
+}
