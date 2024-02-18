@@ -1,8 +1,128 @@
 .latest{
     width: 100%;
-    height: 600px;
+    height: 100vh;
+    position: relative;
     background-image: url(https://www.pirenko-themes.com/hook/architecture/wp-content/uploads/sites/19/2016/06/draken.jpg);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+}
+.latest_text{
+    width: 100%;
+    height: 300px;
+    padding-top: 40px;
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.latest_text h1{
+    font-size: 40px;
+    color: white;
+}
+.latest_text p{
+    font-size: 18px;
+    color: white;
+}
+.latest_table{
+    width: 100%;
+    height: 300px;
+    position: absolute;
+    bottom: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 80px;
+    text-align: center;
+}
+.latest_icon{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.icon{
+    font-size: 50px;
+    color: white;
+}
+.number{
+    font-size: 50px;
+    font-weight: 800;
+    color: white;
+}
+.latest_icon h2{
+    color: white;
+}
+
+
+.latest_our{
+    padding-top: 80px;
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.latest_our h2{
+    color: orange;
+    border-bottom: 2px solid orange;
+}
+.latest_our h1{
+    font-size: 60px;
+    color: rgb(60, 60, 60);
+}
+.latest_our p{
+    width: 60%;
+    text-align: center;
+    font-size: 17px;
+    color: rgb(63, 63, 63);
+}
+
+@media screen and (max-width:1024px) {
+    .latest_table{
+        gap: 50px;
+        padding: 20px;
+    }
+
+}
+@media screen and (max-width:916px) {
+    .latest_icon h2{
+        font-size: 20px;
+    }
+}
+@media screen and (max-width:767px) {
+    .latest{
+        height: 1100px;
+    }
+    .latest_text{
+        top: -50px;
+    }
+    .latest_text h1{
+        font-size: 25px;
+    }
+    .latest_text p{
+        font-size: 15px;
+        text-align: center;
+    }
+    .latest_table{
+        flex-direction: column;
+        top: 450px;
+        gap: 20px;
+    }
+
+
+    .latest_our h2{
+        font-size: 18px;
+    }
+    .latest_our h1{
+        font-size: 40px;
+        color: rgb(60, 60, 60);
+    }
+    .latest_our p{
+        text-align: center;
+        display: flex;
+        flex-wrap: wrap;
+        /* padding: 0 50px; */
+    }
 }

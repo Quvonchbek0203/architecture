@@ -60,7 +60,6 @@
     justify-content: center;
     flex-direction: column;
     gap: 3px;
-
 }
 .header h1{
     font-size: 70px;
@@ -147,6 +146,15 @@ button p{
     }
 }
 
-@media screen and (max-width:916px;) {
-    
+@media screen and (max-width:916px) {
+    .abouth1 h1{
+        font-size: 40px;
+        text-align: center;
+    }
+    .abouth1 h2{
+        font-size: 18px;
+    }
+    .aboutimage{
+        flex-direction: column;
+    }
 }

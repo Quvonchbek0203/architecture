@@ -3,6 +3,7 @@
     top: 0;
     left: 0;
     right: 0;
+    z-index: 10;
 }
 .navbar{
     display: flex;
@@ -73,6 +74,7 @@
     font-size: 30px;
 }
 .navbarScroll .icon{
+    font-size: 18px;
     color: black;
 }
 .bar{
@@ -105,6 +107,7 @@
     }
     .bar{
         display: block;
+        color: black;
     }
     .navItems{
         top: 80px;

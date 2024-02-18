@@ -4,7 +4,8 @@ import styles from '../styles/gif.module.css'
 const Gif = () => {
   return (
     <div className={styles.gifes}>
-      <div className={styles.gif}>
+        
+        <div className={styles.gif}>
             <b>WE ARE MULTIFACETED AND GIFTED</b><br />
             <br /><hr /><br />
             <p>At the base of the mainmast, full beneath the doubloon and the flame, the Parsee was kneeling in Ahab’s front, but with his head bowed away from him while near by but not yet have we solved the incantation of this whiteness, and learned why it appeals with such power.</p><br />
