@@ -1,0 +1,58 @@
+.images{
+    position: relative;
+    width: 100%;
+    display: flex;
+}
+.flat, .views , .higher , .bay , .villa , .garden , .golden{
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover; 
+}
+.flat{
+    width: 50%;
+    height: 600px;
+    background-image: url(https://www.pirenko-themes.com/hook/architecture/wp-content/uploads/sites/19/2016/06/big-blue-1280x1280.jpg);   
+}
+.views{
+    width: 25%;
+    height: 300px;
+    background-image: url(https://www.pirenko-themes.com/hook/architecture/wp-content/uploads/sites/19/2016/05/tonal-640x640.jpg);
+}
+.higher{
+    width: 25%;
+    height: 300px;
+    background-image: url(https://www.pirenko-themes.com/hook/architecture/wp-content/uploads/sites/19/2016/06/penthouse-640x640.jpg);
+}
+.bay{
+    position: absolute;
+    right: 0;
+    top:300px;
+    width: 50%;
+    height: 300px;
+    background-image: url(https://www.pirenko-themes.com/hook/architecture/wp-content/uploads/sites/19/2016/06/panorama-1280x640.jpg);
+}
+.villa{
+    position: absolute;
+    bottom: -300px;
+    left: 0;
+    width: 25%;
+    height: 300px;
+    background-image: url(https://www.pirenko-themes.com/hook/architecture/wp-content/uploads/sites/19/2016/05/renaissance-640x640.jpg);
+}
+.garden{
+    position: absolute;
+    bottom: -300px;
+    width: 50%;
+    left: 25%;
+    height: 300px;
+    background-image: url(https://www.pirenko-themes.com/hook/architecture/wp-content/uploads/sites/19/2016/05/awarded-1280x640.jpg);
+}
+.golden{
+    position: absolute;
+    bottom: -300px;
+    right: 0;
+    width: 25%;
+    height: 300px;
+    background-image: url(https://www.pirenko-themes.com/hook/architecture/wp-content/uploads/sites/19/2016/06/san-fran-640x640.jpg);
+}
+

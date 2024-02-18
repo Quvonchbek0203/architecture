@@ -157,4 +157,10 @@ button p{
     .aboutimage{
         flex-direction: column;
     }
+    .alisa{
+        width: 600px;
+    }
+    .abouttext{
+        width: 100%;
+    }
 }
