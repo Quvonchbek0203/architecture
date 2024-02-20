@@ -1,9 +1,25 @@
-import React from 'react'
+import React, { useEffect, useRef, useState } from 'react'
 import styles from '../styles/gif.module.css'
+import ProgressBar from '../components/ProgressBar'
 
 const Gif = () => {
+    const [count,setCount] = useState(false)
+    const lateref = useRef();
+    const handleScroll = () => {
+      const position = window.pageYOffset;
+      if(position > lateref.current.offsetTop - 200){
+        setCount(true)
+      }
+    }
+    useEffect(() => {
+        window.addEventListener('scroll', handleScroll, { passive: true });
+    
+        return () => {
+            window.removeEventListener('scroll', handleScroll);
+        };
+    }, []);
   return (
-    <div className={styles.gifes}>
+    <div className={styles.gifes} ref={lateref}>
         
         <div className={styles.gif}>
             <b>WE ARE MULTIFACETED AND GIFTED</b><br />
@@ -13,7 +29,8 @@ const Gif = () => {
         </div>
 
         <div className={styles.percent}>
-            <div className={styles.brading}>
+        {count ?  <ProgressBar/> : ""}
+            {/* <div className={styles.brading}>
                 <b>BRANDING</b>
                 <b className={styles.brands}>80%</b>
             </div>
@@ -40,7 +57,7 @@ const Gif = () => {
             </div>
             <div className={styles.foiz}>
                 <div className={styles.photo}></div>
-            </div>
+            </div> */}
         </div>     
     </div>
   )
