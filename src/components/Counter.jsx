@@ -8,8 +8,7 @@ const Counter = (props) => {
     const {startNum, endNum} = props
   return (
     <div>
-        <CountUp 
-        
+        <CountUp
         duration={10}
         end={endNum} 
         start={startNum}

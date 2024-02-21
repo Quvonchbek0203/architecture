@@ -42,7 +42,6 @@ useEffect(() => {
           <li><a href="team">Our Team</a></li>
           <li><a href="contact">Contact Us</a></li>
         </ul>
-        
       </div>
 
       <div className={styles.icon}>
@@ -52,6 +51,7 @@ useEffect(() => {
         <div><a href="# "><FaXing /></a></div>
         <i className={styles.bar} onClick={()=>setToggle(!toggle)}><FaBars/></i>
       </div>
+      
       </div>
     </div>
   )

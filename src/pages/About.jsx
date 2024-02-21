@@ -22,11 +22,11 @@ const About = () => {
             <button className={styles.btn1}><p>LATEST WORK</p></button>
             <button className={styles.btn2}><p>GET IN TOUCH</p></button>
         </div>
-            <div className={styles.down}><a href=" "><HiChevronDown /></a></div>
+            <div className={styles.down}><a href="#about"><HiChevronDown /></a></div>
         </div>
 
 
-        <div className={styles.aboutheader}>
+        <div className={styles.aboutheader} id='about'>
             <div className={styles.abouth2}>
                 <h2>Our Project & Vision</h2>
             </div>    

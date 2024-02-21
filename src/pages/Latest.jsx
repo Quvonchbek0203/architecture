@@ -45,7 +45,7 @@ const Latest = () => {
         <div className={styles.latest_icon}>
           <div className={styles.icon}><HiMiniBeaker /></div>
           <p className={styles.number}>
-          <Counter startNum={latest ? 0 : 0} endNum={latest ? 876 : 0}/>
+          <Counter startNum={latest ? 130 : 0} endNum={latest ? 0 : 0}/>
           </p>
           <h2>UNSOLVED MISTERIES</h2>
         </div>
@@ -53,7 +53,7 @@ const Latest = () => {
         <div className={styles.latest_icon}>
           <div className={styles.icon}><FaRegHeart /></div>
           <p className={styles.number}>
-          <Counter startNum={latest ? 0 : 0} endNum={latest ? 876 : 0}/>
+          <Counter startNum={latest ? 0 : 0} endNum={latest ? 980 : 0}/>
 
           </p>
           <h2>BIG HEARBEATS</h2>
