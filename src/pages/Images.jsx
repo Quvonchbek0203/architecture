@@ -1,6 +1,7 @@
 import React from 'react'
 import styles from '../styles/images.module.css'
 import Flat from '../assets/flat.jpg'
+import View from '../assets/view.jpg'
 import "../App.css"
 const Images = () => {
   return (
@@ -13,6 +14,7 @@ const Images = () => {
       </div>
     </div>
     <div className={styles.views} id='text'>
+      <img src={View} alt="View"  width='100%'/>
       <div className={styles.text}>
         <h1>RED VIEWS</h1>
         <p>An Unusual Approach</p>
