@@ -2,6 +2,7 @@ import React from 'react'
 import styles from '../styles/images.module.css'
 import Flat from '../assets/flat.jpg'
 import View from '../assets/view.jpg'
+import Higher from '../assets/higher.jpg'
 import "../App.css"
 const Images = () => {
   return (
@@ -21,6 +22,7 @@ const Images = () => {
       </div>
     </div>
     <div className={styles.higher} id='text'>
+      <img src={Higher} alt="Higher"  width='100%'/>
       <div className={styles.text}>
         <h1>HIGHER PENTHOUSE</h1>
         <p>Great Market Value</p>
