@@ -3,7 +3,8 @@ import Home from "./pages/Home";
 import About from "./pages/About";
 import Gif from "./pages/Gif";
 import Latest from "./pages/Latest";
-import Images from './pages/Images';
+import Images from "./pages/Images";
+import Service from "./pages/Service";
 
 import "./App.css"
 function App() {
@@ -18,6 +19,8 @@ function App() {
       <Latest/>
       <br />
       <Images/>
+      <br /><br /><br /><br /><br />
+      <Service/>
     </div>
   );
 }

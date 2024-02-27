@@ -1,0 +1,22 @@
+.service{
+    width: 100%;
+    margin-top: 200px ;
+    z-index: 10;
+}
+.text{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.serviceh2 h2{
+    color: orange;
+    border-bottom: 2px solid orange;
+}
+.serviceh1 h1{
+    font-size: 60px;
+}
+.servicep{
+    width: 60%;
+    text-align: center;
+}
