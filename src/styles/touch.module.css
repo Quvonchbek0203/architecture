@@ -1,0 +1,59 @@
+.touch{
+    padding-top: 200px;
+    padding-bottom: 100px;
+}
+.touchh2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.touchh2 h2{
+    width: 135px;
+    color: orange;
+    border-bottom: 2px solid orange;
+}
+.touchh2 h1{
+    font-size: 60px;
+}
+.touchh2 p{
+    text-align: center;
+    width: 80%;
+}
+.touch_icon{
+    padding-top: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: start;
+    gap: 50px;
+}
+.message, .iphone, .send, .something{
+    width: 500px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+}
+i{
+    color: orange;
+    font-size: 40px;
+}
+@media screen and (max-width:916px) {
+    .touch_icon{
+        flex-direction: column;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+}
+@media screen and (max-width:768px) {
+    .touchh2 h2{
+        font-size: 15px;
+    }
+}
+@media screen and (max-width:400px) {
+    .touchh2 p{
+        width: 300px;
+    }
+}

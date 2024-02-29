@@ -4,9 +4,11 @@ import About from "./pages/About";
 import Gif from "./pages/Gif";
 import Latest from "./pages/Latest";
 import Images from "./pages/Images";
-import Service from "./pages/Service";
+// import Service from "./pages/Service";
+import Touch from "./pages/touch";
 
 import "./App.css"
+import Map from "./components/map";
 function App() {
   return (
     <div className="App">
@@ -20,7 +22,10 @@ function App() {
       <br />
       <Images/>
       <br /><br /><br /><br /><br />
-      <Service/>
+      {/* <Service/> */}
+      <br /><br />
+      <Touch/>
+      <Map/>
     </div>
   );
 }

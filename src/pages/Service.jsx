@@ -23,7 +23,6 @@ const Service = () => {
                 <p>Tomorrow the man will sail from Nantucket at the very beginning of the marvelous theme breakthrough.</p>
             </div>
             <div>
-                
                 <h1></h1>
                 <p></p>
             </div>
