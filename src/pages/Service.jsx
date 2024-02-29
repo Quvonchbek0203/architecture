@@ -19,8 +19,8 @@ const Service = () => {
         <div className={styles.icon}>
             <div>
                 <LuMessagesSquare />
-                <h1></h1>
-                <p></p>
+                <h1>Real Brainstorming</h1>
+                <p>Tomorrow the man will sail from Nantucket at the very beginning of the marvelous theme breakthrough.</p>
             </div>
             <div>
                 
