@@ -1,0 +1,25 @@
+.footer{
+    width: 100%;
+    background-color: rgb(42, 41, 41);
+}
+.footer_text{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.about{
+    width: 300px;
+}
+.about h3{
+    font-size: 18px;
+}
+.about p{
+    font-size: 13px;
+}
+.location{
+    display: flex;
+}
+.faicon{
+    font-size: 15px;
+    padding: 0 10px;
+}

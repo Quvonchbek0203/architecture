@@ -9,6 +9,7 @@ import Touch from "./pages/touch";
 
 import "./App.css"
 import Map from "./components/map";
+import Footer from "./components/footer";
 function App() {
   return (
     <div className="App">
@@ -26,6 +27,7 @@ function App() {
       <br /><br />
       <Touch/>
       <Map/>
+      <Footer/>
     </div>
   );
 }

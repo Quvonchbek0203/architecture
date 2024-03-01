@@ -23,7 +23,7 @@ const Latest = () => {
         };
     }, []);
   return (
-    <div>
+    <div className={styles.work}>
 
     <div className={styles.latest} ref={lateref}>
 
