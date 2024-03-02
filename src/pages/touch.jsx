@@ -6,7 +6,7 @@ import { HiCode } from "react-icons/hi";
 import { LuPencilRuler } from "react-icons/lu";
 const Touch = () => {
   return (
-    <div className={styles.contact}>
+    <div className={styles.contact} id='contact'>
         <div className={styles.touchh2}>
             <h2>We're All Ears</h2>
             <h1>GET IN TOUCH</h1>

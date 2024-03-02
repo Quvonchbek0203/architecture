@@ -70,7 +70,7 @@ const Latest = () => {
       </div>
     </div>
 
-    <div className={styles.latest_our}>
+    <div className={styles.latest_our} id='work'>
         <h2>Recognized By Everyone</h2>
         <h1>OUR LATEST PROJECTS</h1>
         <p>It is some systematized exhibition of the whale in his broad genera, that I would now fain put before you. Yet is it  no easy task. The classification of the constituents of a chaos, nothing less is here essayed.</p>

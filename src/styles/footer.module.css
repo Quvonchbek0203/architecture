@@ -1,25 +1,145 @@
 .footer{
     width: 100%;
-    background-color: rgb(42, 41, 41);
+    padding-top: 100px;
+    background-color: rgb(25, 24, 24);
 }
 .footer_text{
     display: flex;
-    justify-content: center;
-    align-items: center;
+    justify-content: space-around;
+    align-items: start;
+    gap: 50px;
+    flex-wrap: wrap;
 }
-.about{
-    width: 300px;
+.about, .newsletter, .connect{
+    width: 220px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
 }
-.about h3{
-    font-size: 18px;
+h4{
+    color: white;
 }
-.about p{
+p{
+    font-size: 13px;
+    color: #808080;
+}
+.location, .phone, .message, .faicons{
+    display: flex;
+    gap: 8px;
+}
+.faicon, .faphone, .fill{
+    font-size: 15px;
+    color: #808080;
+}
+.message a{
+    text-align: center;
+    text-decoration: none;
+    color: #808080;
     font-size: 13px;
 }
-.location{
-    display: flex;
+
+
+.newsletter input{
+    height: 40px;
+    padding: 10px;
+    font-size: 11px;
+    background: none;
+    border: 1px solid #808080;
+    color: #e08221;
 }
-.faicon{
-    font-size: 15px;
-    padding: 0 10px;
+.newsletter input:hover{
+    border-color: #e08221;
+}
+.newsletter button{
+    width: 120px;
+    height: 40px;
+    color: white;
+    background-color: #e08221;
+    font-weight: 900;
+    border: none;
+}
+
+.dribbble, .facebook, .insta, .cloud, .twitter, .youtube{
+    width: 25px;
+    height: 25px;
+    text-align: center;
+}
+.dribbble{
+    border: 1px solid rgb(154, 52, 86);
+    color: rgb(154, 52, 86);
+}
+.dribbble:hover{
+    background-color: rgb(154, 52, 86);
+    color: white;
+}
+.facebook{
+    border: 1px solid blue;
+    color: blue;
+}
+.facebook:hover{
+    background-color: blue;
+    color: white;
+}
+.insta{
+    border: 1px solid rgb(42, 62, 101);
+    color:rgb(42, 62, 101);
+}
+.insta:hover{
+    background-color: rgb(42, 62, 101);
+    color: white;
+}
+.cloud{
+    border: 1px solid red;
+    color: red;
+}
+.cloud:hover{
+    background-color: red;
+    color: white;
+}
+.twitter{
+    border: 1px solid rgb(67, 140, 209);
+    color: rgb(67, 140, 209);
+}
+.twitter:hover{
+    background-color: rgb(67, 140, 209);
+    color: white;
+}
+.youtube{
+    border: 1px solid red;
+    color: red;
+}
+.youtube:hover{
+    background-color: red;
+    color: white;
+    border: none;
+}
+
+/* .image_1{
+    background-image: url(https://www.pirenko-themes.com/hook/architecture/w…625_501915400622016_3841692848273102695_nfull.jpg);
+} */
+
+
+
+.developed{
+    position: relative;
+    margin-top: 50px;
+    width: 100%;
+    height: 80px;
+    display: flex;
+    padding: 0 50px;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #141414;
+}
+.up{
+    position: fixed;
+    width: 30px;
+    height: 30px;
+    background-color: #e08221;
+    color: white;
+    font-size: 20px;
+    font-weight: 900;
+    text-align: center;
+    right: 20px;
+    bottom: 20px
 }
