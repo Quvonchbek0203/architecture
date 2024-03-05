@@ -4,6 +4,13 @@ import { FaLocationDot } from "react-icons/fa6";
 import {FaPhone,FaDribbble,FaFacebookF,FaInstagram,FaCloud,FaTwitter,FaYoutube} from "react-icons/fa";
 import { AiFillMessage } from "react-icons/ai";
 import { HiChevronUp } from "react-icons/hi2";
+import Coffee from '../assets/coffee.jpg'
+import Team from '../assets/team.jpg'
+import Discussion from '../assets/discussion.jpg'
+import Papers from '../assets/papers.jpg'
+import Laptop from '../assets/laptop.jpg'
+import Businesman from '../assets/businesman.jpg'
+
 const Footer = () => {
   return (
     <div className={styles.footer}>
@@ -50,12 +57,24 @@ const Footer = () => {
       <div>
         <h4>INSTAGRAM FEED</h4>
         <div className={styles.images}>
-            <div className={styles.image_1}></div>
-            <div className={styles.image_2}></div>
-            <div className={styles.image_3}></div>
-            <div className={styles.image_4}></div>
-            <div className={styles.image_5}></div>
-            <div className={styles.image_6}></div>
+            <div className={styles.image_1}>
+              <img src={Coffee} alt="Coffee" width='80px' height='70px'/>
+            </div>
+            <div className={styles.image_2}>
+              <img src={Team} alt="Team" width='80px' height='70px'/>
+            </div>
+            <div className={styles.image_3}>
+              <img src={Discussion} alt="Discussion" width='80px' height='70px'/>
+            </div>
+            <div className={styles.image_4}>
+              <img src={Papers} alt="Papers" width='80px' height='70px'/>
+            </div>
+            <div className={styles.image_5}>
+              <img src={Laptop} alt="Laptop" width='80px' height='70px'/>
+            </div>
+            <div className={styles.image_6}>
+              <img src={Businesman} alt="Businesman" width='80px' height='70px'/>
+            </div>
         </div>
       </div></div>
 

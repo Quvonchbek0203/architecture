@@ -114,10 +114,98 @@ p{
     border: none;
 }
 
-/* .image_1{
-    background-image: url(https://www.pirenko-themes.com/hook/architecture/w…625_501915400622016_3841692848273102695_nfull.jpg);
-} */
 
+/* Image hover */
+
+.images{
+    width: 300px;
+    display: flex;
+    flex-wrap: wrap;
+    
+}
+.image_1{
+    width: 80px;
+    overflow: hidden;
+}
+.image_1 img{
+    cursor: pointer;
+    transition: 
+        scale 750ms ease-out,
+        filter 250ms ease-in-out;
+}
+.image_1:hover img{
+    scale: 1.15;
+}
+
+.image_2{
+    width: 80px;
+    overflow: hidden;
+}
+.image_2 img{
+    cursor: pointer;
+    transition: 
+        scale 750ms ease-out,
+        filter 250ms ease-in-out;
+}
+.image_2:hover img{
+    scale: 1.15;
+}
+
+.image_3{
+    width: 80px;
+    overflow: hidden;
+}
+.image_3 img{
+    cursor: pointer;
+    transition: 
+        scale 750ms ease-out,
+        filter 250ms ease-in-out;
+}
+.image_3:hover img{
+    scale: 1.15;
+}
+
+.image_4{
+    width: 80px;
+    overflow: hidden;
+}
+.image_4 img{
+    cursor: pointer;
+    transition: 
+        scale 750ms ease-out,
+        filter 250ms ease-in-out;
+}
+.image_4:hover img{
+    scale: 1.15;
+}
+
+.image_5{
+    width: 80px;
+    overflow: hidden;
+}
+.image_5 img{
+    cursor: pointer;
+    transition: 
+        scale 750ms ease-out,
+        filter 250ms ease-in-out;
+}
+.image_5:hover img{
+    scale: 1.15;
+}
+
+.image_6{
+    width: 80px;
+    overflow: hidden;
+}
+.image_6 img{
+    cursor: pointer;
+    transition: 
+        scale 750ms ease-out,
+        filter 250ms ease-in-out;
+}
+.image_6:hover img{
+    scale: 1.15;
+}
 
 
 .developed{
