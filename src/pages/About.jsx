@@ -34,6 +34,7 @@ const About = () => {
                 <h1>ABOUT OUR STUDIO</h1>
             </div>    
         </div>
+        
         <div className={styles.aboutimage}>
             <div className={styles.alisa}></div>
             <div className={styles.abouttext}>

@@ -108,4 +108,7 @@
     .gifes{
         flex-direction: column;
     }
+    .gif{
+        max-width: 80%;
+    }
 }

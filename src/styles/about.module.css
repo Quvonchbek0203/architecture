@@ -175,9 +175,9 @@ button p{
         flex-direction: column;
     }
     .alisa{
-        width: 600px;
+        max-width: 80%;
     }
     .abouttext{
-        width: 100%;
+        max-width: 80%;
     }
 }

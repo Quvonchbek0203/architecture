@@ -1,15 +1,11 @@
-
-
 .container{
     position: relative;
     max-width: 1000px;
-    width: 100%;
+    width: 90%;
     background: #fff;
-    padding: 0px 5px;
+    padding: 0px 10px;
     border-radius: 7px;
 }
-
-
 
 .container .skillBox {
     width: 100%;
@@ -98,4 +94,14 @@
     z-index: -1;
     background-color: #464646;
     transform: translateX(-50%) rotate(45deg);
+}
+@media screen and (max-width:916px) {
+    .container{
+        padding-left: 100px;
+    }
+}
+@media screen and (max-width:716px) {
+    .container{
+        padding-left: 50px;
+    }
 }

@@ -207,7 +207,6 @@ p{
     scale: 1.15;
 }
 
-
 .developed{
     position: relative;
     margin-top: 50px;
@@ -230,4 +229,9 @@ p{
     text-align: center;
     right: 20px;
     bottom: 20px
+}
+@media screen and (max-width:716px) {
+    .up{
+        
+    }
 }
